@@ -1,0 +1,2 @@
+# EasyDiscountCalculate
+Calculate discount
