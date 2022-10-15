@@ -44,13 +44,6 @@
       Quantity = 1,
       Price = 259.6
   });
-
-  //Bin lira kuralı için kodu açın
-  //document.Lines.Add(new DocumentLine()
-  //{
-  //    Quantity = 4,
-  //    Price = 240.65
-  //});
 ``` 
 
 ### *Sepete Yüzde On
