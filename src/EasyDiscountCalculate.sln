@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyDiscountCalculate", "EasyDiscountCalculate\EasyDiscountCalculate.csproj", "{B193D166-487E-4BA5-8CDA-190917F47638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDiscountCalculate.Sample", "EasyDiscountCalculate.Sample\EasyDiscountCalculate.Sample.csproj", "{BF7A12B8-933D-4516-A348-95A518AA7763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B193D166-487E-4BA5-8CDA-190917F47638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B193D166-487E-4BA5-8CDA-190917F47638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B193D166-487E-4BA5-8CDA-190917F47638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B193D166-487E-4BA5-8CDA-190917F47638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7A12B8-933D-4516-A348-95A518AA7763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7A12B8-933D-4516-A348-95A518AA7763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7A12B8-933D-4516-A348-95A518AA7763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7A12B8-933D-4516-A348-95A518AA7763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90422D00-7F82-4CB6-8A2C-2F92189B1480}
+	EndGlobalSection
+EndGlobal
