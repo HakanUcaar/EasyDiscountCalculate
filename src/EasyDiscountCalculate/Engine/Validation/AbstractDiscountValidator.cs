@@ -9,16 +9,16 @@ using System.Threading.Tasks;
 
 namespace EasyDiscountCalculate.Engine.Validation
 {
-    public abstract class AbstractDiscountValidator<T> : IDiscountValidator where T : IDiscount
+    public class DiscountValidator : IDiscountValidator
     {
         private IDocument Document { get; set; }
         public List<IDiscountRule> Rules { get; set; } = new List<IDiscountRule>();
         public List<ValidationFailure> Fails { get; set; } = new List<ValidationFailure>();
-        public AbstractDiscountValidator()
+        public DiscountValidator()
         {
 
         }
-        public AbstractDiscountValidator(IDocument document)
+        public DiscountValidator(IDocument document)
         {
             Document = document;
         }

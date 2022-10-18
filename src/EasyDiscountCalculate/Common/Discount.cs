@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EasyDiscountCalculate.Common
 {
-    public class Discount : AbstractDiscountValidator<Discount>,IDiscount
+    public class Discount : DiscountValidator, IDiscount
     {
         public DiscountType Type { get; set; }
         public DomainType Domain { get; set; }
